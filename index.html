@@ -17,11 +17,12 @@
             border-bottom: 2px solid #333;
             padding-bottom: 10px;
         }
-        .content {
+        .content, .services, .news, .contact {
             background-color: white;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         h2 {
             color: #666;
@@ -29,14 +30,46 @@
         p {
             color: #444;
         }
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to Our Site</h1>
     <p>This is a simple welcome page to get us started.</p>
+    
     <div class="content">
         <h2>About Us</h2>
-        <p>We're just getting started with this page. More content coming soon!</p>
+        <p>We're a dynamic company focused on delivering value to our customers through innovative solutions and exceptional service.</p>
+    </div>
+
+    <div class="services">
+        <h2>Our Services</h2>
+        <ul class="feature-list">
+            <li>Professional Consulting</li>
+            <li>Custom Solutions</li>
+            <li>24/7 Support</li>
+            <li>Quality Assurance</li>
+        </ul>
+    </div>
+
+    <div class="news">
+        <h2>Latest News</h2>
+        <p><strong>November 2024:</strong> Exciting new features coming soon!</p>
+        <p><strong>October 2024:</strong> Celebrating our successful launch</p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@example.com</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Business Street, City, State 12345</p>
     </div>
 </body>
 </html>
